@@ -49,7 +49,7 @@ parameter body json =<br>
 atau<br>
 {<br>
 "nama" : "....",<br>
-}<br>
+}<br><br>
 Hasil =<br>
 {<br>
     "status" : "OK",<br>
