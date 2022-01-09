@@ -5,7 +5,7 @@ buka command prompt, masuk ke dalam direktori repository ini<br>
 ketikkan `python app.py`
 
 ## Route API
-### Create
+## Create
 url endpoint = localhost:5000/tambahdata<br>
 methods = POST<br>
 parameter body json =<br> 
@@ -22,8 +22,8 @@ hasil =<br>
     "message" : "data berhasil ditambahkan"<br>
 }<br>
 
-### Read
-### Update
+## Read
+## Update
 url endpoint = localhost:5000/ubahdata<br>
 methods = POST<br>
 parameter body json =<br> 
@@ -39,7 +39,7 @@ Hasil =<br>
     "status" : "OK",<br>
     "message" : "data berhasil diupdate"<br>
 }
-### Delete
+## Delete
 url endpoint = localhost:5000/hapusdata<br>
 methods = POST<br>
 parameter body json =<br> 
