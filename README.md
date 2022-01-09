@@ -6,9 +6,9 @@ ketikkan `python app.py`
 
 ## Route API
 ### Create
-url endpoint = localhost:5000/tambahdata
-methods = POST
-parameter body json = 
+url endpoint = localhost:5000/tambahdata<br>
+methods = POST<br>
+parameter body json =<br> 
 {
     "id" : ....,<br>
     "nama" : "....",
