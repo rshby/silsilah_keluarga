@@ -26,7 +26,7 @@ hasil =<br>
 ### Update
 url endpoint = localhost:5000/ubahdata<br>
 methods = POST<br>
-parameter =<br> 
+parameter body json =<br> 
 {<br>
 "id" : ....,<br>
 "nama" : "....",<br>
@@ -37,6 +37,21 @@ parameter =<br>
 Hasil =<br>
 {<br>
     "status" : "OK",<br>
-    "message" : "data berhasil dihapus"<br>
+    "message" : "data berhasil diupdate"<br>
 }
 ### Delete
+url endpoint = localhost:5000/hapusdata<br>
+methods = POST<br>
+parameter body json =<br> 
+{<br>
+"id" : ....,<br>
+}<br>
+atau<br>
+{<br>
+"nama" : "....",<br>
+}<br>
+Hasil =<br>
+{<br>
+    "status" : "OK",<br>
+    "message" : "data berhasil dihapus"<br>
+}
