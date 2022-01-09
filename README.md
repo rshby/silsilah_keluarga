@@ -10,17 +10,17 @@ url endpoint = localhost:5000/tambahdata<br>
 methods = POST<br>
 parameter body json =<br> 
 {<br>
-</t>"id" : ....,<br>
+"id" : ....,<br>
    "nama" : "....",<br>
    "jenis_kelamin" : "....",<br>
    "nama_ortu" : "....",<br>
-   "nama_kakek" : "...."
-}
-hasil =
-{
-    "status" : "OK",
-    "message" : "data berhasil ditambahkan"
-}
+   "nama_kakek" : "...."<br>
+}<br><br>
+hasil =<br>
+{<br>
+    "status" : "OK",<br>
+    "message" : "data berhasil ditambahkan"<br>
+}<br>
 
 ### Read
 ### Update
