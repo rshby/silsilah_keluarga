@@ -24,8 +24,26 @@ hasil =<br>
 
 ## Read
 ### Read semua data
-url endpoint = localhost:5000/ubahdata<br>
+url endpoint = localhost:5000/allkeluarga<br>
 methods = GET<br><br>
+Hasil =<br>
+[{<br>
+"id" : ....,<br>
+"nama" : "....",<br>
+"jenis_kelamin" : "....",<br>
+"nama_ortu" : "....",<br>
+"nama_kakek" : "...."<br>
+},<br>
+{<br>
+    ...<br>
+}]
+### Read data anak berdasarkan nama_ortu
+url endpoint = localhost:5000/dataanak<br>
+methods = POST<br>
+parameter body json =<br>
+{<br>
+    "nama_ortu" : "..."<br>
+}<br><br>
 Hasil =<br>
 [{<br>
 "id" : ....,<br>
