@@ -61,6 +61,12 @@ methods = POST<br>
 parameter body json =<br>
 {<br>
     "nama_kakek" : "..."<br>
+}<br>
+atau<br>
+parameter body json =<br>
+{<br>
+    "nama_kakek" : "..."<br>
+    "jenis_kelamin" : "...."<br>
 }<br><br>
 Hasil =<br>
 [{<br>
