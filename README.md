@@ -55,6 +55,24 @@ Hasil =<br>
 {<br>
     ...<br>
 }]
+### Read data cucu berdasarkan nama_kakek
+url endpoint = localhost:5000/datacucu<br>
+methods = POST<br>
+parameter body json =<br>
+{<br>
+    "nama_kakek" : "..."<br>
+}<br><br>
+Hasil =<br>
+[{<br>
+"id" : ....,<br>
+"nama" : "....",<br>
+"jenis_kelamin" : "....",<br>
+"nama_ortu" : "....",<br>
+"nama_kakek" : "...."<br>
+},<br>
+{<br>
+    ...<br>
+}]
 ## Update
 url endpoint = localhost:5000/ubahdata<br>
 methods = POST<br>
