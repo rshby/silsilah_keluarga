@@ -33,5 +33,10 @@ parameter =<br>
 "jenis_kelamin" : "....",<br>
 "nama_ortu" : "....",<br>
 "nama_kakek" : "...."<br>
-}<br>
+}<br><br>
+Hasil =<br>
+{<br>
+    "status" : "OK",<br>
+    "message" : "data berhasil dihapus"<br>
+}
 ### Delete
