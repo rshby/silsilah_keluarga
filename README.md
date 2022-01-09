@@ -10,11 +10,11 @@ url endpoint = localhost:5000/tambahdata<br>
 methods = POST<br>
 parameter body json =<br> 
 {<br>
-    "id" : ....,<br>
-    "nama" : "....",
-    "jenis_kelamin" : "....",
-    "nama_ortu" : "....",
-    "nama_kakek" : "...."
+   "id" : ....,<br>
+   "nama" : "....",<br>
+   "jenis_kelamin" : "....",<br>
+   "nama_ortu" : "....",<br>
+   "nama_kakek" : "...."
 }
 hasil =
 {
