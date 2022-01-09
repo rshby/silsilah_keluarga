@@ -22,7 +22,7 @@ def dataAnak():
     except Exception as e:
         print(f"kesalahan pada routing dataAnak : {e}")
 
-# route api yang digunakan untuk mendapatkan data berdasarkan parameter nama_ortu
+# route api yang digunakan untuk mendapatkan data cucu berdasarkan parameter nama_kakek
 @app.route("/datacucu", methods=["POST"])
 def dataCucu():
     try:
